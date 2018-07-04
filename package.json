@@ -1,0 +1,49 @@
+{
+  "name": "@yvany/vtoast",
+  "description": "A simple toast based on Vue.js ",
+  "keywords": [
+    "vue",
+    "toast"
+  ],
+  "version": "0.1.0",
+  "author": "Yvan Yang <i.yvanyang@gmail.com>",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:YvanY/vtoast.git"
+  },
+  "homepage": "https://github.com/YvanY/vtoast#readme",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot --config build/webpack.dev.config.js",
+    "build": "webpack --config build/webpack.prod.config.js -p",
+    "build:example": "webpack --config build/webpack.dev.config.js -p"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  }
+}
